@@ -10,19 +10,21 @@
   <body>
     <!-- Шапка сайта -->
     <header class="header">
-      <a href="./index.html" class="studio"
-        ><span class="web">Web</span>Studio</a
+      <a href="./index.html" class="logo"
+        >Web<span class="studio-black">Studio</span></a
       >
       <nav class="nav">
         <ul class="nav-list">
-          <li class="nav-item"><a href="" class="nav-link">Студия</a></li>
-          <li class="nav-item"><a href="" class="nav-link">Портфолио</a></li>
-          <li class="nav-item"><a href="" class="nav-link">Контакты</a></li>
+          <li class="nav-item"><a href="" class="nav-studio">Студія</a></li>
+          <li class="nav-item">
+            <a href="" class="nav-portfolio">Портфоліо</a>
+          </li>
+          <li class="nav-item"><a href="" class="nav-contacts">Контакти</a></li>
         </ul>
       </nav>
-      <ul class="header-list">
-        <li class="header-item">
-          <a href="" class="info"
+      <ul>
+        <li class="communications">
+          <a href="" class="communications-mail"
             ><svg
               width="16"
               height="12"
@@ -38,7 +40,7 @@
             info@studio.com</a
           >
         </li>
-        <li class="phone">
+        <li class="communications">
           <svg
             width="10"
             height="16"
@@ -56,73 +58,76 @@
       </ul>
     </header>
 
-    <!--Navigation-->
-    <section class="section-two">
-      <ul>
-        <li><a href="" class="primary-menu">Все</a></li>
-        <li><a href="" class="primary-menu">Веб-сайти</a></li>
-        <li><a href="" class="primary-menu">Додатки</a></li>
-        <li><a href="" class="primary-menu">Дизайн</a></li>
-        <li><a href="" class="primary-menu">Маркетинг</a></li>
-      </ul>
-      <!--Pictutes-->
-      <ul>
-        <li class="border-list">
-          <img src="./images/site.jpg" alt="" />
-          <h1 class="primary">Технокряк</h1>
-          <p class="seconary">Веб-сайт</p>
-        </li>
-        <li class="border-list">
-          <img src="./images/basket.jpg" alt="" />
-          <h1 class="primary">Постер New Orlean vs Golden Star</h1>
-          <p class="seconary">Дизайн</p>
-        </li>
-        <li class="border-list">
-          <img src="./images/seafood.jpg" alt="" />
-          <h1 class="primary">Ресторан Seafood</h1>
-          <p class="seconary">Додаток</p>
-        </li>
-        <li class="border-list">
-          <img src="./images/headphones.jpg" alt="" />
-          <h1 class="primary">Проєкт Prime</h1>
-          <p class="seconary">Маркетинг</p>
-        </li>
-        <li class="border-list">
-          <img src="./images/boxes.jpg" alt="" />
-          <h1 class="primary">Проєкт Boxes</h1>
-          <p class="seconary">Додаток</p>
-        </li>
-        <li class="border-list">
-          <img src="./images/screen.jpg" alt="" />
-          <h1 class="primary">Inspiration has no Borders</h1>
-          <p class="seconary">Веб-сайт</p>
-        </li>
-        <li class="border-list">
-          <img src="./images/book.jpg" alt="" />
-          <h1 class="primary">Видання Limited Edition</h1>
-          <p class="seconary">Дизайн</p>
-        </li>
-        <li class="border-list">
-          <img src="./images/lab.jpg" alt="" />
-          <h1 class="primary">Проект LAB</h1>
-          <p class="seconary">Маркетинг</p>
-        </li>
-        <li class="border-list">
-          <img src="./images/laptop.jpg" alt="" />
-          <h1 class="primary">Growing Business</h1>
-          <p class="seconary">Додаток</p>
-        </li>
-      </ul>
-    </section>
+    <main>
+      <!--Menu-->
+      <section class="menu">
+        <ul>
+          <li><button type="button" class="menu-section">Усі</button></li>
+          <li><button type="button" class="menu-section">Веб-сайти</button></li>
+          <li><button type="button" class="menu-section">Додатки</button></li>
+          <li><button type="button" class="menu-section">Дизайн</button></li>
+          <li><button type="button" class="menu-section">Маркетинг</button></li>
+        </ul>
+        <!--Pictutes-->
+        <h1>Примеры работ</h1>
+        <ul>
+          <li class="pictures-list">
+            <img src="./images/site.jpg" alt="ноутбук" />
+            <h2 class="pictures-list-head">Технокряк</h2>
+            <p class="spictures-list-paragraph">Веб-сайт</p>
+          </li>
+          <li class="pictures-list">
+            <img src="./images/basket.jpg" alt="гра в баскетбол" />
+            <h2 class="pictures-list-head">Постер New Orlean vs Golden Star</h2>
+            <p class="spictures-list-paragraph">Дизайн</p>
+          </li>
+          <li class="pictures-list">
+            <img src="./images/seafood.jpg" alt="ресторан" />
+            <h2 class="pictures-list-head">Ресторан Seafood</h2>
+            <p class="spictures-list-paragraph">Додаток</p>
+          </li>
+          <li class="pictures-list">
+            <img src="./images/headphones.jpg" alt="навушники" />
+            <h2 class="pictures-list-head">Проєкт Prime</h2>
+            <p class="spictures-list-paragraph">Маркетинг</p>
+          </li>
+          <li class="pictures-list">
+            <img src="./images/boxes.jpg" alt="короба" />
+            <h2 class="pictures-list-head">Проєкт Boxes</h2>
+            <p class="spictures-list-paragraph">Додаток</p>
+          </li>
+          <li class="pictures-list">
+            <img src="./images/screen.jpg" alt="монітор" />
+            <h2 class="pictures-list-head">Inspiration has no Borders</h2>
+            <p class="spictures-list-paragraph">Веб-сайт</p>
+          </li>
+          <li class="pictures-list">
+            <img src="./images/book.jpg" alt="книга" />
+            <h2 class="pictures-list-head">Видання Limited Edition</h2>
+            <p class="spictures-list-paragraph">Дизайн</p>
+          </li>
+          <li class="pictures-list">
+            <img src="./images/lab.jpg" alt="лейба" />
+            <h2 class="pictures-list-head">Проект LAB</h2>
+            <p class="spictures-list-paragraph">Маркетинг</p>
+          </li>
+          <li class="pictures-list">
+            <img src="./images/laptop.jpg" alt="комп'ютер" />
+            <h2 class="pictures-list-head">Growing Business</h2>
+            <p class="spictures-list-paragraph">Додаток</p>
+          </li>
+        </ul>
+      </section>
+    </main>
 
     <!-- Футер -->
-    <footer class="background-footer">
-      <a href="./index.html" class="white-text"
-        ><span class="web">Web</span>Studio</a
+    <footer class="footer">
+      <a href="./index.html" class="logo"
+        >Web<span class="studio-white">Studio</span></a
       >
-      <address class="white-text">г. Киев, пр-т Леси Украинки, 26</address>
-      <address class="adress">info@example.com</address>
-      <address class="adress">+38 099 111 11 11</address>
+      <address class="footer-street">м. Київ, пр-т Лесі Українки, 26</address>
+      <address class="footer-mail">info@example.com</address>
+      <address class="footer-phone">+38 099 111 11 11</address>
     </footer>
   </body>
 </html>
