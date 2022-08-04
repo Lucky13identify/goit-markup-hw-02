@@ -9,6 +9,209 @@
   --background-color-footer: #2f303a;
   --web-color: #000000;
 }
+/*Raleway - sans-serif*/
+/* Oleo Script -decorative fonts*/
+/*Roboto- sans-serif*/
 li {
   list-style-type: none;
+}
+body {
+  font-family: Roboto, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+/*Header*/
+.header {
+  background-color: var(--white-text-color);
+}
+.logo {
+  color: var(---main-blue-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.studio-black {
+  color: var(--web-color);
+}
+.nav-a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+.nav-a:hover,
+.nav-a:focus {
+  color: var(---main-blue-color);
+}
+
+.communications-mail,
+.phone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+.communications-mail:hover,
+.communications-mail:focus {
+  color: var(---main-blue-color);
+}
+/*Hero*/
+.hero-head {
+  color: var(--white-text-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white-text-color);
+  background: var(---main-blue-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+/*Principles*/
+
+.principles-list-head {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+}
+.principles-list-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.principles,
+.neon {
+  background: var(--background-color-site);
+}
+/*Чем мы занимаеимся*/
+.occupation,
+.team-our {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+/*Team*/
+.team-our-list {
+  background: var(--white-text-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.team {
+  background: var(--background-color-two);
+}
+.team-our-list-human {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+.team-our-list-type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-text-color);
+}
+/*Footer*/
+.footer {
+  background: var(--background-color-footer);
+}
+.studio-white {
+  color: var(--white-text-color);
+}
+.footer-address,
+.footer-street {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.footer-street {
+  color: var(--white-text-color);
+}
+.footer-address {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/*Portfolio page*/
+
+/*button*/
+.menu {
+  background: var(--background-color-site);
+}
+.menu-section {
+  background: var(--background-color-two);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.menu-section:hover {
+  background: var(---main-blue-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  color: var(--white-text-color);
+}
+.examples {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+.pictures-list {
+  background: var(--white-text-color);
+  border: 1px solid #eeeeee;
+}
+.pictures-list-head {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+.spictures-list-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
