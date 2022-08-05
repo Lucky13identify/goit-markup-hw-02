@@ -17,6 +17,7 @@ li {
 }
 body {
   font-family: Roboto, sans-serif;
+  color: var(--primary-text-color);
 }
 a {
   text-decoration: none;
@@ -49,8 +50,7 @@ a {
   color: var(---main-blue-color);
 }
 
-.communications-mail,
-.phone {
+.communications-mail {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -95,7 +95,6 @@ a {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-text-color);
 }
 .principles-list-text {
   font-weight: 400;
@@ -116,7 +115,6 @@ a {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
 }
 
 /*Team*/
@@ -135,7 +133,6 @@ a {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
 }
 .team-our-list-type {
   font-weight: 400;
@@ -166,6 +163,10 @@ a {
 .footer-address {
   color: rgba(255, 255, 255, 0.6);
 }
+.footer-address:hover,
+.footer-address:focus {
+  color: var(---main-blue-color);
+}
 
 /*Portfolio page*/
 
@@ -195,7 +196,6 @@ a {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
 }
 .pictures-list {
   background: var(--white-text-color);
@@ -206,7 +206,6 @@ a {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--primary-text-color);
 }
 .spictures-list-paragraph {
   font-weight: 400;
