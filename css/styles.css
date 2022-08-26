@@ -25,9 +25,20 @@ body {
 a {
   text-decoration: none;
 }
+ul,
+p,
+h3,
+h2 {
+  padding: 0;
+  margin: 0;
+}
 /*Header*/
 
 .logo {
+  width: 145px;
+  margin-right: 93px;
+  margin-top: 24px;
+  margin-bottom: 25px;
   color: var(---main-blue-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -46,6 +57,7 @@ a {
 
   color: #212121;
 }
+
 .nav-a:hover,
 .nav-a:focus {
   color: var(---main-blue-color);
@@ -70,17 +82,18 @@ a {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  padding-top: 200px;
+  margin: 0;
 }
 .hero-button {
+  margin-top: 40px;
+  display: inline-block;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
   align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--white-text-color);
   background: var(---main-blue-color);
@@ -88,6 +101,8 @@ a {
   border-radius: 4px;
   font-family: Roboto, sans-serif;
   cursor: pointer;
+  border: transparent;
+  padding: 10px 32px;
 }
 .hero-button:focus,
 .hero-button:hover {
@@ -100,6 +115,8 @@ a {
 /*Principles*/
 
 .principles-list-head {
+  margin-top: 94px;
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -240,4 +257,101 @@ a {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
+}
+/*container*/
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1600px;
+  background-color: tomato;
+}
+.nav,
+.nav-list,
+.address,
+.header.container {
+  display: flex;
+  align-items: center;
+}
+.nav-list .studio {
+  width: 45px;
+}
+.nav-list .portfolio {
+  width: 72px;
+}
+.nav-list .contacts {
+  width: 64px;
+}
+.communications .email {
+  width: 135px;
+}
+.communications .phone {
+  width: 122px;
+}
+.hero .container {
+  text-align: center;
+}
+.nav {
+  margin-left: 215px;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.communications:not(:last-child) {
+  margin-right: 50px;
+}
+.address {
+  margin-left: 344px;
+}
+.table-list {
+  display: flex;
+  margin-left: 215px;
+  margin-right: 215px;
+}
+.principles-list-text {
+  width: 270px;
+  margin-bottom: 94px;
+}
+.principles-list:not(:last-child) {
+  margin-right: 30px;
+}
+.ul-occupation {
+  display: flex;
+  margin-left: 215px;
+  margin-right: 215px;
+  padding-bottom: 94px;
+}
+.image {
+  margin-right: 30px;
+}
+.occupation {
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+.our-team {
+  display: flex;
+  margin-left: 215px;
+  margin-right: 215px;
+  padding-bottom: 94px;
+}
+.team-our-list:not(:last-child) {
+  margin-right: 30px;
+}
+.team-our {
+  margin-bottom: 50px;
+  padding-top: 94px;
+}
+.footer-street-one,
+.footer-street-two {
+  margin-bottom: 9px;
+  margin-left: 215px;
+}
+.footer-street-three {
+  margin-left: 215px;
+  margin-bottom: 60px;
+}
+.logo-footer {
+  margin-left: 215px;
+  margin-bottom: 20px;
 }
